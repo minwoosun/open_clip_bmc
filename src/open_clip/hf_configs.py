@@ -64,4 +64,17 @@ arch_dict = {
         },
         "pooler": "cls_pooler",
     },
+
+    "modernbert": {
+        "config_names": {
+            "context_length": "max_position_embeddings",
+            "vocab_size": "vocab_size",
+            "width": "hidden_size",
+            "heads": "num_attention_heads",
+            "layers": "num_hidden_layers",
+            "layer_attr": "layer",
+            "token_embeddings_attr": "embeddings"
+        },
+        "pooler": "mean_pooler",
+    }
 }

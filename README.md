@@ -1,3 +1,16 @@
+# This is a fork of [open_clip](https://github.com/mlfoundations/open_clip)
+
+This fork was created to support the experiments in our preprint:
+> Author et al., *Title of Preprint* (2025).  
+> [arXiv link]
+
+### Modifications in this fork
+- Added support for BioClinical ModernBERT as text encoder
+- Created sample script for submitting a job to train CLIP with BioCLINICAL ModernBERT
+
+For all other details, please refer to the original README below.
+
+
 # OpenCLIP
 
 [[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_coca.ipynb)

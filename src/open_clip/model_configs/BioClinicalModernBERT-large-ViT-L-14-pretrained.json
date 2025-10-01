@@ -1,0 +1,18 @@
+{
+    "embed_dim": 768,
+    "vision_cfg": {
+      "timm_model_name": "vit_large_patch14_clip_224.dfn2b_s39b",
+      "timm_model_pretrained": true,
+      "timm_pool": "",
+      "timm_proj": "linear",
+      "timm_drop": 0.0,
+      "timm_drop_path": 0.1,
+      "image_size": 224
+    },
+    "text_cfg": {
+      "hf_model_name": "thomas-sounack/BioClinical-ModernBERT-base",
+      "hf_tokenizer_name": "thomas-sounack/BioClinical-ModernBERT-base",
+      "hf_pooler_type": "mean_pooler",
+      "context_length": 512
+    }
+  }

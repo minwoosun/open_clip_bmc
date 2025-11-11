@@ -1,8 +1,8 @@
 # This is a fork of [open_clip](https://github.com/mlfoundations/open_clip)
 
 This fork was created to support the experiments in our preprint:
-> Author et al., *Title of Preprint* (2025).  
-> [arXiv link]
+> Sun et al., *No Tokens Wasted: Leveraging Long Context in Biomedical Vision-Language Models* (2025).  
+> [[arXiv link]](https://arxiv.org/abs/2510.03978)
 
 ### Modifications in this fork
 - Added support for BioClinical ModernBERT as text encoder
